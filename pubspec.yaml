@@ -1,0 +1,66 @@
+name: auth
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+  # TextField input format
+  mask_text_input_formatter: ^2.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
+  fonts:
+      - family: DM sans
+        fonts:
+          - asset: assets/fonts/dm_sans/DMSans-Bold.ttf
+          - asset: assets/fonts/dm_sans/DMSans-Medium.ttf
+          - asset: assets/fonts/dm_sans/DMSans-Regular.ttf
+          - asset: assets/fonts/dm_sans/DMSans-SemiBold.ttf
+          - asset: assets/fonts/dm_sans/DMSans-SemiBoldItalic.ttf
+          - asset: assets/fonts/dm_sans/DMSans-Thin.ttf
+          - asset: assets/fonts/dm_sans/DMSans-ThinItalic.ttf
+          - asset: assets/fonts/dm_sans/DMSans-Italic.ttf
+          - asset: assets/fonts/dm_sans/DMSans-Light.ttf
+          - asset: assets/fonts/dm_sans/DMSans-LightItalic.ttf
+          - asset: assets/fonts/dm_sans/DMSans-ExtraLight.ttf
+          - asset: assets/fonts/dm_sans/DMSans-ExtraLightItalic.ttf
+          - asset: assets/fonts/dm_sans/DMSans-ExtraBold.ttf
+          - asset: assets/fonts/dm_sans/DMSans-ExtraBoldItalic.ttf
+          - asset: assets/fonts/dm_sans/DMSans-BlackItalic.ttf
+          - asset: assets/fonts/dm_sans/DMSans-MediumItalic.ttf
+          - asset: assets/fonts/dm_sans/DMSans-BoldItalic.ttf
+          - asset: assets/fonts/dm_sans/DMSans-Black.ttf
+      - family: Inter
+        fonts:
+          - asset: assets/fonts/inter/Inter-Black.otf
+          - asset: assets/fonts/inter/Inter-Bold.otf
+          - asset: assets/fonts/inter/Inter-Italic.otf
+          - asset: assets/fonts/inter/Inter-Light.otf
+          - asset: assets/fonts/inter/Inter-Medium.otf
+          - asset: assets/fonts/inter/Inter-Regular.otf
+          - asset: assets/fonts/inter/Inter-SemiBold.otf
