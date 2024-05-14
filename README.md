@@ -1,4 +1,4 @@
-# auth
+# Authorization Full Design
 
 A new Flutter project.
 
